@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38f092d4-f775-4564-98df-01de2d43d3ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/properties/[id]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/add/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InfoBox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InfoBoxes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PropertyCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-5/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-5/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-4/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-4/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-4/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-4/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-5/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-5/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-6/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-6/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-7/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-7/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-8/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app12-8/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-1/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-1/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-1/views/search.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-1/views/search.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-2/views/add.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app14-2/views/add.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app15-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app15-1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app15-1/views/random.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app15-1/views/random.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app16-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app16-1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app16-2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app16-2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/calculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/calculator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/error.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/error.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/log.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/log.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/time.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/middlewares/time.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/routes/calculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/routes/calculator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/routes/health.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/routes/health.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/types/calculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/types/calculator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/rest-app/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/rest-app/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/site/meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/site/meadowlark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/404.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/404.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/500.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/500.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/about.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/about.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/home.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/web-development/meadowlark/views/layouts/main.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplicationAPI/Contracts/ILoggerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplicationAPI/Contracts/ILoggerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplicationAPI/LoggerService/LoggerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplicationAPI/LoggerService/LoggerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplicationAPI/WebApplicationAPI/Extensions/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplicationAPI/WebApplicationAPI/Extensions/ServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplicationAPI/WebApplicationAPI/nlog.config" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplicationAPI/WebApplicationAPI/nlog.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/AllProduct.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/AllProduct.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Custom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Custom.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/MyWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/MyWrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express/ch03/lib/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/lib/handler.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/nodeapi.3bae22db/cache-state.xml" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/nodeapi.3bae22db/cache-state.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" afterDir="false" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" afterDir="false" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/workspace/2sVh5d6W2oZVn0eAUmSs80Emi6p.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/workspace/2sVh5d6W2oZVn0eAUmSs80Emi6p.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/workspace/2tn3zL075w5hneQdP0MdicDvvzm.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/workspace/2tn3zL075w5hneQdP0MdicDvvzm.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tnd204qOmaQXetAz3ZSJth0I7L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Projects/baancorner-properties",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\chatp\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\baancorner-properties" />
+      <recent name="C:\Projects\baancorner-properties\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\baancorner-properties\public\images" />
+      <recent name="C:\Projects\baancorner-properties" />
+      <recent name="C:\Projects\baancorner-properties\app" />
+      <recent name="C:\Projects\baancorner-properties\app\properties" />
+      <recent name="C:\Projects\baancorner-properties\assets\styles" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38f092d4-f775-4564-98df-01de2d43d3ac" name="Changes" comment="" />
+      <created>1740991562140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740991562140</updated>
+      <workItem from="1740991563713" duration="8634000" />
+      <workItem from="1741054958417" duration="4529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
