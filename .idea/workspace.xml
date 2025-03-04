@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f092d4-f775-4564-98df-01de2d43d3ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/loading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/not-found.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/HomeProperties.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" afterDir="false" />
@@ -61,11 +58,6 @@
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/MyWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/MyWrapper.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../express/ch03/lib/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/lib/handler.js" afterDir="false" />
       <change beforePath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" afterDir="false" />
@@ -152,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740991562140</updated>
       <workItem from="1740991563713" duration="8634000" />
-      <workItem from="1741054958417" duration="6562000" />
+      <workItem from="1741054958417" duration="7565000" />
     </task>
     <servers />
   </component>
