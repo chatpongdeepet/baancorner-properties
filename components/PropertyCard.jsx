@@ -22,6 +22,7 @@ const PropertyCard = ({property}) => {
 				height = {0}
 				width = {0}
 				sizes = "100vw"
+				priority
 				className = "w-full h-auto rounded-t-xl"
 			/>
 			<div className = "p-4">
@@ -38,7 +39,7 @@ const PropertyCard = ({property}) => {
 				<div className = "flex justify-center gap-4 text-gray-500 mb-4">
 					<p className = "flex items-center">
 						<FaBed className = "inline mr-2" /> {property.beds}{' '}
-						<span className = "md:hidden lg:inline">Beds</span>
+						<span className = "md:hidden lg:inline"> Beds</span>
 					</p>
 					<p className = "flex items-center">
 						<FaBath className = "inline mr-2" /> {property.baths}{' '}
@@ -46,7 +47,7 @@ const PropertyCard = ({property}) => {
 					</p>
 					<p className = "flex items-center">
 						<FaRulerCombined className = "inline mr-2" />
-						{property.square_feet}{' '} <span className = "md:hidden lg:inline">sqft</span>
+						{property.square_feet}{' '} <span className = "md:hidden lg:inline"> sqft</span>
 					</p>
 				</div>
 				<div

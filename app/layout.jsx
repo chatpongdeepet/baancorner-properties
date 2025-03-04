@@ -1,7 +1,8 @@
 import "../assets/styles/globals.css";
-import '@/components/navbar'
-import Navbar from "@/components/navbar";
+import '@/components/Navbar'
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AuthProvider from "@/components/AuthProvider";
 
 export const metadata = {
 	title: "baancorner Properties | Find your dream properties",
@@ -11,13 +12,14 @@ export const metadata = {
 
 export default function RootLayout({children}) {
 	return (
-		<html lang = "en">
-		<body
-		>
-		<Navbar />
-		{children}
-		<Footer />
-		</body>
-		</html>
+		<AuthProvider>
+			<html lang = "en">
+			<body>
+			<Navbar />
+			{children}
+			<Footer />
+			</body>
+			</html>
+		</AuthProvider>
 	);
 }

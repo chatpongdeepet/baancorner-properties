@@ -1,13 +1,11 @@
 'use client'
 import ClipLoader from "react-spinners/ClipLoader";
 
-const LoadingPage = ({loading}) => {
-
-	const override = {
-		display: 'block',
-		margin: '100px auto'
-	}
-
+const override = {
+	display: 'block',
+	margin: '100px auto'
+}
+const Spinner = ({loading}) => {
 	return (
 		<div className = "flex items-center justify-center">
 			<ClipLoader
@@ -21,4 +19,4 @@ const LoadingPage = ({loading}) => {
 	);
 };
 
-export default LoadingPage;
+export default Spinner;
