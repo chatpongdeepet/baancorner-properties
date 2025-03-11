@@ -11,21 +11,7 @@
       <change afterPath="$PROJECT_DIR$/../Express-Auth/.idea/Express-Auth.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebDevelopment/.idea/WebDevelopment.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/.idea/next-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/properties/[id]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/properties/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AuthProvider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PropertiesDetails.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PropertyHeaderImage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Spinner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/authOption.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PropertyAddForm.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../express/.idea/express.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" afterDir="false" />
@@ -81,19 +67,7 @@
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/loading.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/properties/[id]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/properties/[id]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/properties/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/properties/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomeProperties.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomeProperties.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PropertyCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PropertyCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/properties/add/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/properties/add/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../express/ch03/lib/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/lib/handler.js" afterDir="false" />
       <change beforePath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" afterDir="false" />
@@ -111,8 +85,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -122,6 +96,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chatpongdeepet&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chatpongdeepet/baancorner-properties.git&quot;,
+    &quot;accountId&quot;: &quot;9534d434-fa74-45dc-90d6-ec2abfde3d79&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -134,26 +120,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.17.0",
-    "javascript.nodejs.core.library.typings.version": "20.17.23",
-    "last_opened_file_path": "C:/Projects/baancorner-properties",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\chatp\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.23&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/baancorner-properties&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\chatp\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\baancorner-properties" />
@@ -183,7 +169,10 @@
       <option name="presentableId" value="Default" />
       <updated>1740991562140</updated>
       <workItem from="1740991563713" duration="8634000" />
-      <workItem from="1741054958417" duration="32180000" />
+      <workItem from="1741054958417" duration="32672000" />
+      <workItem from="1741155458367" duration="891000" />
+      <workItem from="1741620626989" duration="605000" />
+      <workItem from="1741670777222" duration="1432000" />
     </task>
     <servers />
   </component>
