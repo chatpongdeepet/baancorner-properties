@@ -3,6 +3,8 @@ import '@/components/Navbar'
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/components/AuthProvider";
+import React from 'react';
+import {ToastContainer} from 'react-toastify';
 
 export const metadata = {
 	title: "baancorner Properties | Find your dream properties",
@@ -18,6 +20,7 @@ export default function RootLayout({children}) {
 			<Navbar />
 			{children}
 			<Footer />
+			<ToastContainer />
 			</body>
 			</html>
 		</AuthProvider>

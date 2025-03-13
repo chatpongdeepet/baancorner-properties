@@ -23,9 +23,6 @@ const Navbar = () => {
 		const setAuthProvider = async () => {
 			const res = await getProviders()
 			setProvider(res)
-			console.log("Session status:", status);
-			console.log("Session data:", session);
-
 		}
 
 		setAuthProvider()

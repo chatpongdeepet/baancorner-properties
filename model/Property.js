@@ -1,4 +1,12 @@
-import {Schema, model, models} from 'mongoose'
+import mongoose, {Schema, model, models} from 'mongoose'
+
+const LocationSchema = new mongoose.Schema({
+	street: {type: String},
+	city: {type: String},
+	state: {type: String}, // เพิ่ม field "state"
+	zipcode: {type: String},
+
+})
 
 const PropertySchema = new Schema({
 	owner: {
@@ -17,17 +25,7 @@ const PropertySchema = new Schema({
 	description: {
 		type: String,
 	},
-	location: {
-		street: {
-			type: String
-		},
-		city: {
-			type: String
-		},
-		zipcode: {
-			type: String
-		}
-	},
+	location: LocationSchema,
 	beds: {
 		type: Number,
 		required: true
