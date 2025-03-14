@@ -1,4 +1,82 @@
 @import "tailwindcss";
 
 @theme {
+    /*--color-midnight: #013D5A;*/
+    /*--color-lionsmane: #FCF3E3;*/
+    /*--color-celeste: #BDD3CE;*/
+    /*--color-herb: #078c69;*/
+    /*--color-marigold: #F4A258;*/
+    /* Midnight Shades */
+    --color-alabaster: #F1EADE;
+    --color-desertsand: #D9D1C5;
+    --color-polynesian-blue: #004e89;
+    --color-indigo-dye: #16425B;
+
+    --color-reseda-green: #6E8649;
+    --color-fern-green: #477023;
+    --color-dark-moss: #2D531A;
+    --color-pakistan-green: #0D330E;
+    --color-dark-green: #071e07;
+
+    --color-jack-and-coke: #92140c;
+    --color-dark-eclipse: #111d4a;
+
+    --color-lapis-blue: #004e89;
+    --color-jazz-blue: #1a659e;
+
+
+    --color-midnight-100: #E3F1F8;
+    --color-midnight-200: #B7D7E7;
+    --color-midnight-300: #8ABED7;
+    --color-midnight-400: #5CA4C7;
+    --color-midnight-500: #2F8AB6; /* Base Color */
+    --color-midnight-600: #247095;
+    --color-midnight-700: #195675;
+    --color-midnight-800: #0E3D54;
+    --color-midnight-900: #032334;
+
+    /* Lionsmane Shades */
+    --color-lionsmane-100: #FFFDF9;
+    --color-lionsmane-200: #FFF9EF;
+    --color-lionsmane-300: #FFF4E5;
+    --color-lionsmane-400: #FFEDD2;
+    --color-lionsmane-500: #FCF3E3; /* Base Color */
+    --color-lionsmane-600: #DCCDBB;
+    --color-lionsmane-700: #BDA893;
+    --color-lionsmane-800: #9D826B;
+    --color-lionsmane-900: #7E5C43;
+
+    /* Celeste Shades */
+    --color-celeste-100: #F2F8F7;
+    --color-celeste-200: #E0EBE9;
+    --color-celeste-300: #CFDEDC;
+    --color-celeste-400: #BDD0CE;
+    --color-celeste-500: #BDD3CE; /* Base Color */
+    --color-celeste-600: #94B8B1;
+    --color-celeste-700: #6A9D94;
+    --color-celeste-800: #418276;
+    --color-celeste-900: #185759;
+
+    /* Herb Shades */
+    --color-herb-100: #E7F8F1;
+    --color-herb-200: #C1EEDD;
+    --color-herb-300: #9AE3CA;
+    --color-herb-400: #74D9B6;
+    --color-herb-500: #078C69; /* Base Color */
+    --color-herb-600: #067859;
+    --color-herb-700: #056348;
+    --color-herb-800: #044E38;
+    --color-herb-900: #033A27;
+
+    /* Marigold Shades */
+    --color-marigold-100: #FFF5F0;
+    --color-marigold-200: #FFE2CD;
+    --color-marigold-300: #FDD1AF;
+    --color-marigold-400: #FBBF92;
+    --color-marigold-500: #F4A258; /* Base Color */
+    --color-marigold-600: #CC8049;
+    --color-marigold-700: #A3613A;
+    --color-marigold-800: #7B442A;
+    --color-marigold-900: #53271B;
+
 }

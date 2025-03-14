@@ -8,6 +8,7 @@ import {FaGoogle} from 'react-icons/fa'
 import {useState, useEffect} from "react";
 import {usePathname} from "next/navigation";
 import {signIn, signOut, useSession, getProviders} from 'next-auth/react'
+import UnreadMessageCount from "@/components/UnreadMessageCount";
 
 const Navbar = () => {
 	const {data: session} = useSession()
@@ -30,7 +31,7 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className = "bg-blue-700 border-b border-blue-500 fixed top-0 left-0 w-full z-50"
+			className = "bg-pakistan-green border-alabaster border-b fixed top-0 left-0 w-full z-50"
 		>
 			<div className = "mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 				<div className = "relative flex h-20 items-center justify-between">
@@ -78,7 +79,7 @@ const Navbar = () => {
 							/>
 
 							<span
-								className = "hidden md:block text-white text-2xl font-bold ml-2"
+								className = "hidden md:block text-alabaster text-2xl font-bold ml-2"
 							>baancorner Property</span
 							>
 						</Link>
@@ -87,18 +88,18 @@ const Navbar = () => {
 							<div className = "flex space-x-2">
 								<Link
 									href = "/"
-									className = {`${pathname === '/' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+									className = {`${pathname === '/' ? 'bg-alabaster text-indigo-dye' : ''} text-alabaster hover:text-indigo-dye hover:bg-lionsmane-600 rounded-md px-3 py-2`}
 								>Home</Link
 								>
 								<Link
 									href = "/properties"
-									className = {`${pathname === '/properties' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+									className = {`${pathname === '/properties' ? 'bg-alabaster text-indigo-dye' : ''} text-alabaster hover:text-indigo-dye hover:bg-lionsmane-600 rounded-md px-3 py-2`}
 								>Properties</Link
 								>
 								{session && (
 									<Link
 										href = "/properties/add"
-										className = {`${pathname === '/properties/add' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+										className = {`${pathname === '/properties/add' ? 'bg-alabaster text-indigo-dye' : ''} text-alabaster hover:text-indigo-dye hover:bg-lionsmane-600 rounded-md px-3 py-2`}
 									>Add Property
 									</Link>
 								)}
@@ -155,12 +156,7 @@ const Navbar = () => {
 										/>
 									</svg>
 								</button>
-								<span
-									className = "absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full"
-								>
-                2
-									{/*<!-- Replace with the actual number of notifications -->*/}
-              </span>
+								<UnreadMessageCount session = {session} />
 							</Link>
 							{/*<!-- Profile dropdown button -->*/}
 							<div className = "relative ml-3">
@@ -189,7 +185,7 @@ const Navbar = () => {
 								{isProfileMenuOpen && (
 									<div
 										id = "user-menu"
-										className = "absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+										className = "absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-pakistan-green ring-opacity-5 focus:outline-none"
 										role = "menu"
 										aria-orientation = "vertical"
 										aria-labelledby = "user-menu-button"
@@ -197,7 +193,7 @@ const Navbar = () => {
 									>
 										<Link
 											href = "/profile"
-											className = "block px-4 py-2 text-sm text-gray-700"
+											className = "block px-4 py-2 text-sm text-gray-700 hover:bg-fern-green hover:text-white w-full"
 											role = "menuitem"
 											tabIndex = "-1"
 											id = "user-menu-item-0"
@@ -208,7 +204,7 @@ const Navbar = () => {
 										>
 										<Link
 											href = "/properties/saved"
-											className = "block px-4 py-2 text-sm text-gray-700"
+											className = "block px-4 py-2 text-sm text-gray-700 hover:bg-fern-green hover:text-white w-full"
 											role = "menuitem"
 											tabIndex = "-1"
 											id = "user-menu-item-2"
@@ -222,7 +218,7 @@ const Navbar = () => {
 												setIsProfileMenuOpen(false)
 												signOut()
 											}}
-											className = "block px-4 py-2 text-sm text-gray-700"
+											className = "block px-4 py-2 text-sm text-gray-700 hover:bg-fern-green hover:text-white w-full"
 											role = "menuitem"
 											tabIndex = "-1"
 											id = "user-menu-item-2"

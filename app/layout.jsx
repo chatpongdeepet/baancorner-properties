@@ -1,8 +1,10 @@
 import "../assets/styles/globals.css";
+import 'photoswipe/dist/photoswipe.css'
 import '@/components/Navbar'
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/components/AuthProvider";
+import {GlobalProvider} from "@/context/GlobalContext";
 import React from 'react';
 import {ToastContainer} from 'react-toastify';
 
@@ -14,17 +16,19 @@ export const metadata = {
 
 export default function RootLayout({children}) {
 	return (
-		<AuthProvider>
-			<html lang = "en">
-			<body className = "flex flex-col min-h-screen">
-			<Navbar />
-			<main className = "flex-1">
-				{children}
-			</main>
-			<Footer />
-			<ToastContainer />
-			</body>
-			</html>
-		</AuthProvider>
+		<GlobalProvider>
+			<AuthProvider>
+				<html lang = "en">
+				<body className = "flex flex-col min-h-screen">
+				<Navbar />
+				<main className = "flex-1">
+					{children}
+				</main>
+				<Footer />
+				<ToastContainer />
+				</body>
+				</html>
+			</AuthProvider>
+		</GlobalProvider>
 	);
 }

@@ -70,12 +70,12 @@ const ProfilePage = () => {
 		<section className = "bg-blue-50">
 			<div className = "container m-auto py-24">
 				<div className = "bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
-					<h1 className = "text-3xl font-bold mb-4">Your Profile</h1>
+					<h1 className = "text-3xl font-bold mb-4 bg">Your Profile</h1>
 					<div className = "flex flex-col md:flex-row">
 						<div className = "md:w-1/4 mx-20 mt-10">
 							<div className = "mb-4">
 								<Image
-									className = "h-32 w-32 md:h-48 md:w-48 rounded-full mx-auto md:mx-0"
+									className = "h-32 w-32 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 ring-pakistan-green ring-offset-4 ring-4"
 									src = {profileImage || profileDefault}
 									alt = "User"
 									width = {200}
@@ -87,7 +87,7 @@ const ProfilePage = () => {
 						</div>
 
 						<div className = "md:w-3/4 md:pl-4">
-							<h2 className = "text-xl font-semibold mb-4">Your Listings</h2>
+							<h2 className = "text-xl font-semibold mb-4">Your Property Lists</h2>
 							{!loading && properties.length === 0 && (
 								<p>You have no property listings</p>
 							)}{loading ? (<Spinner loading = {loading} />) : (
@@ -98,7 +98,7 @@ const ProfilePage = () => {
 								>
 									<Link href = {`/properties/${property._id}`}>
 										<img
-											className = "h-32 w-full rounded-md object-cover"
+											className = "h-32 w-full rounded-md object-cover ring-offset-2 ring-2 ring-dark-moss"
 											src = {property.images[0]}
 											alt = ""
 											width = {500}
@@ -112,13 +112,13 @@ const ProfilePage = () => {
 									<div className = "mt-2">
 										<Link
 											href = {`/properties/${property._id}/edit`}
-											className = "bg-blue-500 text-white px-3 py-3 rounded-md mr-2 hover:bg-blue-600"
+											className = "bg-lapis-blue text-alabaster px-4 py-2.5 rounded-md mr-2 hover:bg-jazz-blue"
 										>
 											Edit
 										</Link>
 										<button
 											onClick = {() => handleDeleteProperty(property._id)}
-											className = "bg-red-500 text-white px-3 py-2 rounded-md hover:bg-red-600"
+											className = "bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
 											type = "button"
 										>
 											Delete

@@ -87,8 +87,8 @@ const BookmarkButton = ({property}) => {
 			className = {`
 		 font-bold w-full py-2 px-4 rounded-full flex items-center justify-center
 		${isBookmarked
-				? 'bg-blue-600 hover:bg-blue-700 text-white ring-blue-600'  // ถ้า isBookmarked เป็น true
-				: 'bg-white ring-2 ring-gray-300 hover:ring-blue-600 hover:ring-2  text-blue-600 '} // ถ้า isBookmarked เป็น false
+				? 'bg-pakistan-green hover:bg-dark-moss text-alabaster ring-pakistan-green ring-offset-2 ring-4'  // ถ้า isBookmarked เป็น true
+				: 'bg-desertsand ring-2 ring-gray-300 hover:ring-pakistan-green hover:ring-offset-2 hover:ring-2  text-pakistan-green '} // ถ้า isBookmarked เป็น false
 	`}
 
 		>
