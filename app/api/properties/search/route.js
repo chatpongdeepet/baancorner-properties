@@ -13,24 +13,30 @@ export const GET = async (req) => {
 		const locationPattern = new RegExp(location, 'i')
 
 		// Match location pattern against field
-		let query = {
-			$or: [
+		let query = {$or: []};
+
+		if (location) {
+			const locationPattern = new RegExp(location, "i");
+			query.$or.push(
 				{name: locationPattern},
 				{description: locationPattern},
-				{'location.street': locationPattern},
-				{'location.city': locationPattern},
-				{'location.state': locationPattern},
-				{'location.zipcode': locationPattern},
-			]
+				{"location.street": locationPattern},
+				{"location.city": locationPattern},
+				{"location.state": locationPattern},
+				{"location.zipcode": locationPattern}
+			);
 		}
 
-		// Only check for property if is not 'All'
 		if (propertyType && propertyType !== "All") {
-			query.type = new RegExp(propertyType, 'i')
+			query.type = new RegExp(propertyType, "i");
+		}
+
+		if (!query.$or.length) {
+			// หากไม่มีเงื่อนไข $or เลย ให้ลบ $or ออกจาก query
+			delete query.$or;
 		}
 
 		const properties = await Property.find(query)
-		console.log('properties', properties)
 		return new Response(JSON.stringify(properties), {status: 200})
 	} catch (error) {
 		console.log(error)

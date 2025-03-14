@@ -11,10 +11,12 @@
       <change afterPath="$PROJECT_DIR$/../Express-Auth/.idea/Express-Auth.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebDevelopment/.idea/WebDevelopment.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/.idea/next-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/bookmarks/check/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/properties/search/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/properties/saved/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SearchForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/messages/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/messages/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/search-results/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Messages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Message.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../express/.idea/express.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" afterDir="false" />
@@ -70,14 +72,16 @@
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/next-app/components/Student.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/bookmarks/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/bookmarks/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/properties/search/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/properties/search/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/properties/[id]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/properties/[id]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/properties/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/properties/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/BookmarkButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookmarkButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SharedButtons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SharedButtons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PropertyAddForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PropertyAddForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PropertyContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PropertyContactForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/00-meadowlark.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../express/ch03/lib/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express/ch03/lib/handler.js" afterDir="false" />
       <change beforePath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2024.3/projects/baancorner-properties.fbb1f982/cache-state.xml" afterDir="false" />
@@ -95,8 +99,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -156,11 +160,11 @@
       <recent name="C:\Projects\baancorner-properties\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\baancorner-properties\model" />
       <recent name="C:\Projects\baancorner-properties" />
       <recent name="C:\Projects\baancorner-properties\public\images" />
       <recent name="C:\Projects\baancorner-properties\app" />
       <recent name="C:\Projects\baancorner-properties\app\properties" />
-      <recent name="C:\Projects\baancorner-properties\assets\styles" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -187,7 +191,7 @@
       <workItem from="1741697712273" duration="4883000" />
       <workItem from="1741842311236" duration="13654000" />
       <workItem from="1741871512772" duration="12573000" />
-      <workItem from="1741904297269" duration="9701000" />
+      <workItem from="1741904297269" duration="20646000" />
     </task>
     <servers />
   </component>

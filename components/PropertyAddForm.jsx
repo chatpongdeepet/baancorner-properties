@@ -95,6 +95,7 @@ const PropertyAddForm = () => {
 	useEffect(() => {
 		setMounted(true)
 	}, []);
+
 	return mounted &&
 		<form
 			action = "/api/properties"

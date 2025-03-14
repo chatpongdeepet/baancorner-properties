@@ -7,7 +7,6 @@ import {FaBookmark, FaRegBookmark} from "react-icons/fa";
 const BookmarkButton = ({property}) => {
 	const {data: session} = useSession()
 	const userId = session?.user?.id;
-	console.log(userId)
 
 	const [isBookmarked, setIsBookmarked] = useState(false)
 	const [loading, setLoading] = useState(true)
